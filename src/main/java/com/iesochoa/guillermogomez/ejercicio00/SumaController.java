@@ -25,7 +25,7 @@ public class SumaController {
     @FXML
     void onClick(ActionEvent event) {
         lbSaludo.setText("Hola " + tfSaludo.getText());
-        lbResultado.setText(suma(num1, num2));
+        lbResultado.setText(num1 + num2);
     }
     public int suma(int num1, int num2){
         int sumaNumeros = num1 +num2;
